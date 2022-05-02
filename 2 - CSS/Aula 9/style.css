@@ -1,0 +1,49 @@
+body {
+background: #cfcfcf;    
+color:rgb(43, 43, 43);
+font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.foto-principal {
+    width: 200px;
+    border: 5px solid #FFFFFF; /*Shorthand*/
+    border-radius: 50px;
+    /*
+    Outra opção de colocar borda:
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    */
+    
+    margin: 30px 30px 30px 30px;
+    /*
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    */
+
+    /*padding: 10px; */
+
+    box-shadow: 10px 10px 10px rgb(167, 167, 167);
+}
+
+h1 {
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight:100;
+    letter-spacing: -1px; 
+
+}

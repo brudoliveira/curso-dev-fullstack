@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(225, 236, 232);
+    font-family: 'Comfortaa', cursive;
+    background-size: cover;
+    margin: 50px;
+    background-image: url('img/pattern.gif');
+    background-size: 20%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-style: dashed;
+    padding: 50px;
+    background-color: rgb(235, 236, 236);
+  }
+
+  .profile {
+      text-align: center;
+  }
+
+.foto-principal {
+    border: 5px double rgb(0, 0, 0);
+    border-radius: 20% 20% 20% 20%;
+    box-shadow: 5px 5px 5px black;
+    width: 200px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 0    
+}
+
+h2 {
+    margin-top: 0;
+}
+.social-icons {
+    width: 40px;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+.maisfotos {
+    color: black;
+}
+
+.back {
+    color: black;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 30px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}

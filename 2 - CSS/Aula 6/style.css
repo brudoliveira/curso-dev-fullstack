@@ -1,0 +1,29 @@
+body {
+background: #cfcfcf;    
+}
+
+p {
+    color: rgb(51, 48, 48);
+}
+
+.foto-principal {
+    width: 200px;
+}
+
+.foto-principal {
+    border: 5px solid #FFFFFF; /*Shorthand*/
+    border-radius: 50px;
+    /*
+    Outra opção de colocar borda:
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    */
+    
+    margin: 30px 500px 100px;
+    /*
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    */
+}
